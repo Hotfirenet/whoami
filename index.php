@@ -6,10 +6,9 @@
  * @contact hotfirenet@gmail.com
  * @license MIT
  * @date 2025-06-20
- * @version 1.0.0
- * @version 1.0.0
+ * @version 1.0.1
  */
-define('WHOAMI_VERSION', '1.0.0');
+define('WHOAMI_VERSION', '1.0.1');
 
 $token = getenv('API_TOKEN');
 if (!$token) {

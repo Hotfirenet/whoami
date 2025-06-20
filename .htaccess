@@ -2,3 +2,11 @@
     Order allow,deny
     Deny from all
 </FilesMatch>
+
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>
+
+RedirectMatch 404 /\.git
+RedirectMatch 404 /\.svn
